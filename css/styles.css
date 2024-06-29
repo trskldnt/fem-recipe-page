@@ -11,6 +11,10 @@
     --second-family: "Young Serif", sans-serif;
 }
 
+html {
+    font-size: 100%;
+}
+
 body {
     background: var(--eggshell);
     font-family: var(--font-family);
@@ -46,7 +50,7 @@ main {
 .recipe-card__title {
     font-family: var(--second-family);
     font-weight: 400;
-    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 100%;
     color: var(--dark-charcoal);
     margin-bottom: 24px;
@@ -55,7 +59,7 @@ main {
 
 .recipe-card__desc {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 150%;
     color: var(--wenge-brown);
 }
@@ -69,7 +73,7 @@ main {
 
 .recipe-card__preparation_title {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 100%;
     color: var(--dark-raspberry);
     margin-bottom: 16px;
@@ -81,7 +85,7 @@ main {
 
 .recipe-card__preparation_item {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 150%;
     color: var(--wenge-brown);
     margin-bottom: 8px;
@@ -99,7 +103,7 @@ main {
 .recipe-card__nutrition_title {
     font-family: var(--second-family);
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.75rem;
     line-height: 100%;
     color: var(--brandy-red);
     margin-bottom: 24px;
@@ -111,7 +115,7 @@ main {
 
 .recipe-card__ingredients_item {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 150%;
     color: var(--wenge-brown);
     margin-bottom: 8px;
@@ -135,7 +139,7 @@ main {
 
 .recipe-card__instructions_item {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 150%;
     color: var(--wenge-brown);
     margin-bottom: 8px;
@@ -177,7 +181,7 @@ main {
 
 .recipe-card__nutrition_table td:nth-child(2) {
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 150%;
     color: var(--brandy-red);
 }
@@ -206,6 +210,6 @@ main {
     }
 
     .recipe-card__title {
-        font-size: 36px;
+        font-size: 2.25rem;
     }
 }
